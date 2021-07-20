@@ -1,0 +1,9 @@
+Steps to test the files:
+------------------------
+
+pylint cleanCode_pylint.py
+pylint uncleanCode_pylint.py
+
+pylint --const-rgx='[a-z_][a-z0-9_]{2,30}$' cleanCode_pylint.py
+
+pylint --const-rgx='[a-z_][a-z0-9_]{2,30}$' cleancode_pylint.py
